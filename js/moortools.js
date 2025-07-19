@@ -2,7 +2,7 @@ senvenProvide("moorCall.moortools");
 moorCall.moortools.m7BeginLogon = function (loginName, password, extenType, agentStatus) {
     var config = {
         Monitor: false,
-        proxy_url: "http://sh-hw-cc-v4.7moor.com",//在用户中心查询到的地址，如：https://pbx-bj-ali2.7moor.com
+        proxy_url: "https://sh-hw-cc-v4.7moor.com",//在用户中心查询到的地址，如：https://pbx-bj-ali2.7moor.com
         extenType: extenType,
         password: password,
         User: loginName,
